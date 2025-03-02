@@ -1,0 +1,17 @@
+# Kafka client
+kafka-python==2.0.2
+
+# Data processing
+numpy==1.24.3
+pandas==2.0.2
+
+# Machine Learning
+tensorflow==2.12.0
+scikit-learn==1.2.2
+
+# Logging and monitoring
+python-json-logger==2.0.7
+prometheus-client==0.17.1
+
+# Testing
+pytest==7.3.1 
