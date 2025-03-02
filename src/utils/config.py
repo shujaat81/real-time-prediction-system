@@ -1,7 +1,7 @@
 import os
 
 # Kafka Configuration
-KAFKA_BROKER = os.getenv('KAFKA_BROKER', 'kafka:29092')
+KAFKA_BOOTSTRAP_SERVERS = "localhost:9093"
 INPUT_TOPIC = 'input-data'
 PREDICTION_TOPIC = 'predictions'
 
